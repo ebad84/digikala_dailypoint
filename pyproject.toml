@@ -1,0 +1,29 @@
+[project]
+name = "digikala-point-gatherer"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Ebad84",email = "ebad84.025@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "requests (>=2.32.4,<3.0.0)",
+    "flask (>=3.1.1,<4.0.0)",
+    "bs4 (>=0.0.2,<0.0.3)",
+    "fake-useragent (>=2.2.0,<3.0.0)"
+]
+
+[tool.poetry]
+package-mode = true
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^25.1.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+project = 'src.digikala_point_gatherer.app:main'

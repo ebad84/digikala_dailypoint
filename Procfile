@@ -1,0 +1,1 @@
+web: python src/digikala_point_gatherer/app.py

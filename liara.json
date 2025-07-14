@@ -1,0 +1,5 @@
+{
+  "flask": {
+    "appModule": "src.digikala_point_gatherer.app:app"
+  }
+}
