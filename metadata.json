@@ -1,0 +1,8 @@
+{
+  "name": "دیجی کالا دیلی پوینت",
+  "description": "ربات تلگرامی هوشمند و پنل مدیریت دریافت خودکار امتیاز روزانه دیجی‌کلاب",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

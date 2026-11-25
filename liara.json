@@ -1,5 +1,10 @@
 {
-  "flask": {
-    "appModule": "src.digikala_point_gatherer.app:app"
-  }
+  "platform": "node",
+  "port": 3000,
+  "disks": [
+    {
+      "name": "dailypoint-data",
+      "mountTo": "/usr/src/app/data"
+    }
+  ]
 }
